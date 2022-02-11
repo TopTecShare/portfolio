@@ -64,7 +64,7 @@ const AboutPage = () => {
 
   useEffect(() => {
     setTimeout(calculatePosition, 400);
-    attachEventsListener();
+    window.addEventListener("resize", calculatePosition);
   }, []);
 
   // const cubeAnimation = (e) => {
@@ -78,10 +78,6 @@ const AboutPage = () => {
   //     el.current.style.transition = "0s ease-in-out";
   //   }, 1000);
   // };
-
-  const attachEventsListener = () => {
-    window.addEventListener("resize", calculatePosition);
-  };
 
   const calculatePosition = () => {
     gsap.set(el.current, {
