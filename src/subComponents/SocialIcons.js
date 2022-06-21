@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { Facebook, Github, Twitter, YouTube } from "../components/AllSvgs";
+import { Telegram, Github, Twitter } from "../components/AllSvgs";
 import { DarkTheme } from "../components/Themes";
 
 const Icons = styled.div`
@@ -56,7 +56,7 @@ const SocialIcons = (props) => {
         <NavLink
           style={{ color: "inherit" }}
           target="_blank"
-          to={{ pathname: "https://twitter.com/" }}
+          to={{ pathname: "https://twitter.com/toptecshare" }}
         >
           <Twitter
             width={25}
@@ -73,9 +73,9 @@ const SocialIcons = (props) => {
         <NavLink
           style={{ color: "inherit" }}
           target="_blank"
-          to={{ pathname: "https://facebook.com/" }}
+          to={{ pathname: "https://t.me/toptecshare" }}
         >
-          <Facebook
+          <Telegram
             width={25}
             height={25}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
@@ -87,7 +87,7 @@ const SocialIcons = (props) => {
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.6 }}
       >
-        <NavLink
+        {/* <NavLink
           style={{ color: "inherit" }}
           target="_blank"
           to={{ pathname: "https://youtube.com" }}
@@ -97,7 +97,7 @@ const SocialIcons = (props) => {
             height={25}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
-        </NavLink>
+        </NavLink> */}
       </motion.div>
 
       <Line
