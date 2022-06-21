@@ -170,30 +170,17 @@ const AboutPage = () => {
         </Spaceman>
         <Main>
           <div style={{ fontFamily: "Kajima" }}>
-            Passionate blockchain, full-stack developer with 9+ years of
-            experience, solid leadership skills, and unrivalled building skills.
-            Skilled in Blockchain, Smart Contract, JS Frameworks (React, Vue),
-            Web Dev Stacks (MEAN, LAMP), Version Control (Git), Databases
-            (Oracle, MySQL), CMS, Cryptography.
-            <br />
-            Seeking to help the bottom line at Isetan Mitsukoshi Dev, delight
-            clients at Kajima Dev, and deliver high-quality web development for
-            Opentext Dev.
-            <br />
-            At Logica, led development for $30M in revenue per year. Managed 5
-            teams of 5-7 developers each. Worked with customers during the
-            period of 15% increase in repeat business.
-            <br />
-            As a freelance developer, completed 5+ end-to-end client projects,
-            including the NFT projects and the webapp for the sports betting
-            website.
+            A full-stack, blockchain developer with 9+ years of experience and
+            unrivaled building skills with JS Frameworks (React, Vue), Web Dev
+            Stacks (MEAN, LAMP), Smart Contract, Version Control (Git),
+            Databases (Oracle, MySQL), CMS, Cryptography. <br />
             <br />
             Contributed to 50+ GitHub projects and completed 10+ personal
-            full-stack and blockchain development projects with 95% client
-            satisfaction.
+            full-stack and smart contract projects with 95% client satisfaction.
             <br />
-            Main goal is to work with ambitious and agile business owners and
-            entrepreneurs who strive to succeed with great ideas.
+            <br />
+            Main goal is to advise the agile business owners and entrepreneurs
+            who strive to succeed with great ideas.
           </div>
         </Main>
 

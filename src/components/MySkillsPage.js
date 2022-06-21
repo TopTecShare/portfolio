@@ -102,7 +102,7 @@ const MySkillsPage = () => {
           <Description>
             <strong>Tools</strong>
             <ul>
-              <li>Solidity, Hardhat, Truffle</li>
+              <li>Solidity, Hardhat, Truffle, Remix</li>
             </ul>
           </Description>
         </Main>
@@ -111,7 +111,7 @@ const MySkillsPage = () => {
             <Develope width={40} height={40} /> Frontend Developer
           </Title>
           <Description>
-            I value business or brand for which i'm creating, thus i enjoy
+            I value business or brand for which I'm creating, thus I enjoy
             bringing new ideas to life.
           </Description>
           <Description>

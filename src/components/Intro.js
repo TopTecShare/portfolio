@@ -76,7 +76,7 @@ const Intro = () => {
           <h3>I'm TopTecShare.</h3>
           <h6>
             As smart contract, web3, full stack developer, I am seeking to
-            explore top tech.
+            explore top technology.
           </h6>
         </Text>
       </SubBox>
