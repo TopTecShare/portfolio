@@ -172,7 +172,7 @@ const AboutPage = () => {
           <div style={{ fontFamily: "Kajima" }}>
             A full-stack, blockchain developer with 9+ years of experience and
             unrivaled building skills with JS Frameworks (React, Vue), Web Dev
-            Stacks (MEAN, LAMP), Smart Contract, Version Control (Git),
+            Stacks (MERN, LAMP), Smart Contract, Version Control (Git),
             Databases (Oracle, MySQL), CMS, Cryptography. <br />
             <br />
             Contributed to 50+ GitHub projects and completed 10+ personal
