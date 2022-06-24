@@ -152,7 +152,7 @@ const Main = () => {
 
         <Contact
           target="_blank"
-          to={{ pathname: "mailto:toptecshare@gmail.com" }}
+          to={{ pathname: "mailto:support@toptecshare.com" }}
         >
           <motion.h2
             initial={{
